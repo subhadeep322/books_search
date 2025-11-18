@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Public Library Searcher",
+  "version": "1.0",
+  "description": "Searches multiple legal archives for free books.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "https://openlibrary.org/"
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
